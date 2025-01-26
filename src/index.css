@@ -1,0 +1,28 @@
+:root {
+  --text: #122945;
+  --text-secondary: #5e7793;
+  --accent: #002cfb;
+  --icon: #adbfdf;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, 'SF Pro Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f4f9;
+}

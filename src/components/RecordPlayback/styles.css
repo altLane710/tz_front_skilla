@@ -1,0 +1,36 @@
+.RecordPlaybackRoot {
+  height: 48px;
+  width: 352px;
+  font-size: 15px;
+  border-radius: 48px;
+  padding: 20px 24px;
+  background-color: #eaf0fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.RecordPlaybackProgress {
+  width: 164px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: var(--icon);
+}
+
+.RecordPlaybackRoot svg {
+  color: var(--icon);
+}
+
+.RecordPlaybackRoot svg:hover {
+  color: var(--accent);
+}
+
+.PlayButton {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

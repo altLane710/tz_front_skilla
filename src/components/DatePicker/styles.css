@@ -1,0 +1,84 @@
+.DropdownMenuTrigger {
+  font-size: 14px;
+  line-height: 14px;
+  color: #005ff8;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.TriggerContent {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.DropdownMenuArrows {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.DropdownArrow {
+  color: var(--icon);
+  cursor: pointer;
+}
+
+.DropdownArrow:hover {
+  color: var(--accent);
+}
+
+.CalendarIcon {
+  width: 16px;
+  height: 18px;
+  color: var(--icon);
+}
+
+.DropdownMenuContent {
+  border-radius: 8px;
+  padding: 4px 0;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+
+.DropdownMenuItem {
+  width: 204px;
+  height: 40px;
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.DropdownMenuItem:hover {
+  background-color: #dee4ff;
+}
+
+.PopoDropdownMenuItemverItem[data-active='true'] {
+  color: var(--accent);
+}
+
+.DropdownDatesMenuItem {
+  width: 204px;
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--text);
+}
+
+.DateRangeInputContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.DateRangeInput {
+  padding: 0;
+  border: none;
+  height: 28px;
+  max-width: 120px;
+  letter-spacing: 0.5px;
+  color: var(--icon);
+}

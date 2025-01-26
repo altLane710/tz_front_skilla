@@ -1,0 +1,66 @@
+.container {
+  margin: 80px auto 120px;
+  width: 1440px;
+}
+
+.filters {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reset-filters {
+  border: none;
+  background-color: transparent;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 140%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px 0 24px;
+  table-layout: fixed;
+}
+
+th {
+  text-align: left;
+  color: var(--text-secondary);
+  font-weight: normal;
+  padding: 0 0 16px 0;
+  font-size: 14px;
+}
+
+tbody tr {
+  height: 65px;
+}
+
+tbody td {
+  border-top: 1px solid #eaf0fa;
+}
+
+tbody td:first-child {
+  border-top: none;
+}
+
+.CallRow:hover {
+  background-color: #d4dff32b;
+  cursor: pointer;
+}
+
+.GroupRow td {
+  border-top: 0;
+  height: auto;
+  padding: 40px 0 16px;
+}
+
+.Source {
+  color: #5e7793;
+}

@@ -1,0 +1,31 @@
+.Rating {
+  height: 26px;
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+
+.RatingBad {
+  width: 56px;
+  color: #ea1a4f;
+  border-color: #ea1a4f;
+  background-color: #fee9ef;
+}
+
+.RatingGood {
+  width: 70px;
+  color: var(--text);
+  border-color: #adbfdf;
+  background-color: #d8e4fb;
+}
+
+.RatingExcellent {
+  width: 80px;
+  color: #28a879;
+  border-color: #28a879;
+  background-color: #dbf8ef;
+}

@@ -1,0 +1,16 @@
+.IconButtonRoot {
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  gap: 4px;
+  color: var(--text-secondary);
+  background-color: transparent;
+  align-items: center;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.IconButtonRoot svg {
+  color: var(--icon);
+}

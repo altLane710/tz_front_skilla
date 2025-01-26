@@ -1,0 +1,24 @@
+.DropdownMenuContent {
+  border-radius: 8px;
+  padding: 4px 0;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+
+.DropdownMenuItem {
+  width: 133px;
+  height: 18px;
+  padding: 7px 12px;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.DropdownMenuItem:hover {
+  background-color: #dee4ff;
+}
+
+.DropdownMenuItem[data-active='true'] {
+  color: var(--accent);
+}
