@@ -19,7 +19,7 @@ const RecordPlayback = ({
 }) => {
   const [playing, setPlaying] = useState(false);
   const [audio, setAudio] = useState<HTMLAudioElement | undefined>();
-  const [progress, setProgress] = useState<number>();
+  const [progress, setProgress] = useState<number>(0);
 
   async function handlePlay() {
     if (!playing) {
@@ -88,7 +88,9 @@ const RecordPlayback = ({
       <div
         className="RecordPlaybackProgress"
         style={{
-          background: `linear-gradient(to right, #00f, ${progress}%, var(--icon) ${progress}% `,
+          background: `linear-gradient(to right, #00f, ${
+            progress > 0 ? progress : 0
+          }%, var(--icon) ${progress > 0 ? progress : 100}% `,
         }}
       ></div>
 
